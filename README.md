@@ -8,7 +8,7 @@
     # Crear directorio con privilegios root
     sudo mkdir /opt/taller_wls
     ```
-    ![Comando sudo](img\taller_punt_1.png)
+    ![Comando sudo](taller_punt_1.png)
 
 2. **Pwd**: permite conocer cuál es la ruta de trabajo actual (carpeta en la 
    que nos encontramos)
@@ -16,7 +16,7 @@
     # Conocer ruta 
     pwd
     ```
-    ![Comando pwd](img\taller_punto_2.png)
+    ![Comando pwd](taller_punto_2.png)
 
 3. **cd** es el comando para navegar entre carpetas desde la terminal, permite
    movernos a diferentes directorios, por ejemplo cd /home, o cd /usr , al
@@ -30,7 +30,7 @@
    # Comando cd paranavegar a otro directorio
    cd /opt/taller_wsl/
    ```
-   ![Comando cd & cd ..](img\taller_punto_3.png)
+   ![Comando cd & cd ..](taller_punto_3.png)
 
 4. **ls** permite listar los archivos y carpetas dentro de un directorio, se 
    le pueden agregar opciones, por ejemplo ls -l permite ver en forma de lista 
@@ -42,7 +42,7 @@
    # Listar directorios en /var
    ls -ltr /var/
    ```
-   ![Comando ls](img\taller_punto_4.png)
+   ![Comando ls](taller_punto_4.png)
 
 5. **cat:** este comando permite imprimir en la salida estándar (consola) el
    contenido de los archivos. Es útil para visualizar rápidamente archivos y
@@ -52,7 +52,7 @@
    # Imprimir salida de archivo hosts
    cat /etc/hosts
    ```
-   ![Comando cat](img\taller_punto_5.png)
+   ![Comando cat](taller_punto_5.png)
 
 6. **cp:** permite copiar un archivo en otro, por ejemplo
    cp nombrearchivo1.txt nombrearchivo2.txt nombrearchivo3.txt
@@ -62,7 +62,7 @@
    # Copiar archivo
    sudo cp archivo.txt archivo_copy.txt
    ```
-   ![Comando cp](img\taller_punto_6.png)
+   ![Comando cp](taller_punto_6.png)
 
 7. **mv:** permite mover archivos de un lugar a otro.
 
@@ -70,7 +70,7 @@
    # Mover archivo de /opt/taller_wsl a /home/master
    sudo mv archivo_copy.txt /home/master/archivo_copy.txt
    ```
-   ![Comando mv](img\taller_punto_7.png)
+   ![Comando mv](taller_punto_7.png)
 
 8. **mkdir:** crea directorios, por ejemplo mkdir micarpeta crearía una carpeta
    llamada micarpeta.
@@ -79,7 +79,7 @@
    # Crear directorio 
    sudo mkdir script
    ```
-   ![Comando mkdir](img\taller_punto_8.png)
+   ![Comando mkdir](taller_punto_8.png)
 
 9. **Touch:** permite crear archivos vacíos, por ejemplo touch holamundo.py, si
    inmediatamente después se usa el comando ls se puede apreciar el
@@ -89,7 +89,7 @@
    # Crear archivo .py 
    sudo touch script/main.py
    ```
-   ![Comando touch](img\taller_punto_9.png)
+   ![Comando touch](taller_punto_9.png)
 
 10. **Top:** permite ver los procesos en ejecución con su consumo de recursos,
     para salir se debe pulsar escape o q.
@@ -98,7 +98,7 @@
    # Ver procesos en ejecución 
    top
    ```
-   ![Comando top](img\taller_punto_10.png)
+   ![Comando top](taller_punto_10.png)
 
 11. Crear y ejecutar un hola mundo con **python**.
     
@@ -113,4 +113,4 @@
    python3 main.py
 
    ```
-   ![Comando top](img\taller_punto_11.png)
+   ![Comando top](taller_punto_11.png)
